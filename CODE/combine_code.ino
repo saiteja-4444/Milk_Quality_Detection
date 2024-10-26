@@ -146,8 +146,7 @@ void SendMessage()
   phsensor.println("AT+CMGF=1\r");
   delay(2000);
   Serial.println("Sending SMS to the desired phone number!");
- phsensor.println("AT+CMGS=\"\"\r");
-  // Replace x with mobile number
+ phsensor.println("AT+CMGS=\" HERE ENTER YOUR MOBILE NUMBER\"\r");          // Replace  with your mobile number
   delay(2000);
  phsensor.println(msg);    // SMS Text
   delay(2000);
