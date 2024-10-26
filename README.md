@@ -12,22 +12,20 @@ This project utilizes IoT sensors to monitor and ensure the quality of milk. By 
 - GSM Module: Sends alert messages when the milk quality parameters exceed acceptable limits.
 
 ## 🌟 Features
-Real-Time Monitoring: Continuous monitoring of milk quality parameters.
-Alert System: Sends SMS alerts through the GSM module when any parameter exceeds the preset threshold.
-User-Friendly Interface: Data visualization through dashboards (if applicable).
-Low Cost & Efficient: Utilizes cost-effective IoT components to ensure an affordable solution.
+- Real-Time Monitoring: Continuous monitoring of milk quality parameters.
+- Alert System: Sends SMS alerts through the GSM module when any parameter exceeds the preset threshold.
+- User-Friendly Interface: Data visualization through dashboards (if applicable).
+- Low Cost & Efficient: Utilizes cost-effective IoT components to ensure an affordable solution.
 
 ## 🛠️ Setup Instructions
 ### Hardware Setup:
 
-Connect the pH sensor, temperature sensor, and LDR sensor to the NodeMCU.
-
-Connect the GSM module to the NodeMCU for SMS alerts.
+- Connect the pH sensor, temperature sensor, and LDR sensor to the NodeMCU.
+- Connect the GSM module to the NodeMCU for SMS alerts.
 
 ### Software Setup:
 
 Install the Arduino IDE and necessary libraries for NodeMCU and sensors.
-
 Upload the code (provided in the repository) to the NodeMCU.
 
 ## ⚙️ Configuration:
